@@ -35,6 +35,6 @@ jobs:
           # Dá 3 segundos para o servidor ligar completamente
           sleep 3
 
-          # O '-f' faz o CI falhar se a API retornar erro (ex: 404 ou 500)
+          # O '-f' faz o CI falhar se a API retornar errewo (ex: 404 ou 500)
           curl -f http://localhost:8000/
           curl -f http://localhost:8000/somar/10/20
